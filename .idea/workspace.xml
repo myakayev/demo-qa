@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417a6a89-70df-4d27-8267-78bab2b569b8" name="Changes" comment="2 modules were created">
-      <change afterPath="$PROJECT_DIR$/bookstore-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-api/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-application/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-application/src/main/java/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-elements/pom.xml" afterDir="false" />
+    <list default="true" id="417a6a89-70df-4d27-8267-78bab2b569b8" name="Changes" comment="DQA-002 Add dependencies">
+      <change afterPath="$PROJECT_DIR$/web-elements/src/main/java/config/ConfigProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-elements/src/main/resources/config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/web-elements/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-elements/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-elements/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-elements/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +31,19 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="773f3b2b-36d6-47bc-8982-91106a3753bc" />
+        <option name="url" value="https://github.com/myakayev/demo-qa.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,15 +68,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "C:/Users/o.myakayev/AQA/demo-qa/web-elements/src/main/resources",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\o.myakayev\AQA\demo-qa\web-elements\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\o.myakayev\AQA\demo-qa" />
       <recent name="C:\Users\o.myakayev\AQA\demo-qa\.idea" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="config" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -99,13 +117,29 @@
       <option name="project" value="LOCAL" />
       <updated>1707769390748</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="DQA-001Add modules">
+      <created>1707858279132</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707858279132</updated>
+    </task>
+    <task id="LOCAL-00005" summary="DQA-002 Add dependencies">
+      <created>1707931548636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707931548636</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New demo-qa project" />
     <MESSAGE value="Readme file was added.&#10;pom file was updated." />
     <MESSAGE value="2 modules were created" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 modules were created" />
+    <MESSAGE value="DQA-001Add modules" />
+    <MESSAGE value="DQA-002 Add dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="DQA-002 Add dependencies" />
   </component>
 </project>
