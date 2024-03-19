@@ -12,6 +12,7 @@
         <module>web-elements</module>
         <module>bookstore-application</module>
         <module>bookstore-api</module>
+        <module>model</module>
     </modules>
 
     <properties>
