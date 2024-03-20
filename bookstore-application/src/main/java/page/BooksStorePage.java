@@ -1,6 +1,7 @@
 package page;
 
 import model.BookTableRow;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -31,8 +32,13 @@ public class BooksStorePage extends AbstractPage {
         List<BookTableRow> bookTableRows = new ArrayList<>();
         for(WebElement row: tableRow) {
             BookTableRow bookTableRow = new BookTableRow();
-        }
 
+            bookTableRow.setTitle(row.findElement(By.xpath(".//*[@class='action-buttons']/span/a")).getText());
+            bookTableRow.setAuthor(row.findElements(By.className("rt-td")).get(2).getText());
+            bookTableRow.setPublisher(row.findElements(By.className("rt-td")).get(3).getText());
+
+            bookTableRows.add(bookTableRow);
+        }
        return bookTableRows;
     }
 }

@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="417a6a89-70df-4d27-8267-78bab2b569b8" name="Changes" comment="DQA-002 Add config logic">
-      <change afterPath="$PROJECT_DIR$/bookstore-application/src/main/java/model/BookTableRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-application/src/main/java/page/AbstractPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-application/src/main/java/page/BooksStorePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-application/src/main/java/page/Path.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookstore-application/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/src/main/java/model/Book.java" afterDir="false" />
+    <list default="true" id="417a6a89-70df-4d27-8267-78bab2b569b8" name="Changes" comment="lesson_30 2:09">
+      <change afterPath="$PROJECT_DIR$/bookstore-application/src/test/java/BookStoreTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bookstore-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-elements/src/main/java/config/ConfigProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/config/ConfigProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-elements/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web-elements/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookstore-application/src/main/java/page/BooksStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookstore-application/src/main/java/page/BooksStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/src/main/java/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/model/src/main/java/model/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +70,8 @@
     "jdk.selected.JAVA_MODULE": "openjdk-19",
     "last_opened_file_path": "C:/Users/o.myakayev/AQA/demo-qa/bookstore-application/src/main/resources",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
@@ -94,6 +87,23 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="config" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BookStoreTest.getAllBookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bookstore-application" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookStoreTest" />
+      <option name="METHOD_NAME" value="getAllBookTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookStoreTest.getAllBookTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708180373862</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson_30 2:09">
+      <created>1710882374590</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710882374590</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +173,7 @@
     <MESSAGE value="DQA-001Add modules" />
     <MESSAGE value="DQA-002 Add dependencies" />
     <MESSAGE value="DQA-002 Add config logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="DQA-002 Add config logic" />
+    <MESSAGE value="lesson_30 2:09" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson_30 2:09" />
   </component>
 </project>
